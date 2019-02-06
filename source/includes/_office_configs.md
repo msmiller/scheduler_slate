@@ -42,7 +42,7 @@ This endpoint retrieves the OfficeConfig for the current Office.
 
 ## Update OfficeConfig
 
-> JSON Response
+> JSON Response (200)
 
 ```json
 {
@@ -52,6 +52,12 @@ This endpoint retrieves the OfficeConfig for the current Office.
   "fluffiness": 5,
   "cuteness": 10
 }
+```
+
+> JSON Response (404)
+
+```json
+false
 ```
 
 This endpoint updates the OfficeConfig the current Office.
